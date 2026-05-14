@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "title": "FriendShip Management System",
+    "type": "Full Stack",
+    "shortDescription": "A personal relationship management platform that tracks interactions and improves social connections.",
+    "fullDescription": "FriendShip Management is a sophisticated personal relationship management (PRM) platform designed to bridge the gap in our busy modern lives. It empowers users to foster meaningful connections by tracking interaction history and intelligently identifying friends who may need more attention. With its intuitive interface, you can manage your social circle effectively, ensuring no important relationship is overlooked.",
+    "image": "/images/friendship.png",
+    "tech": ["JS", "React", "TailwindCSS"],
+    "live": "https://keenkeeper-ruby.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/B-13-A-07"
+  },
+  {
+    "id": 2,
+    "title": "TilesPro - Online Ceramic Product Gallery",
+    "type": "Full Stack",
+    "shortDescription": "A premium ceramic tile gallery with advanced filtering and categorization.",
+    "fullDescription": "TilesPro is a high-end digital showcase designed for the ceramic industry, offering a seamless and immersive experience for exploring premium tile collections. The application features advanced categorization, allowing users to dive deep into technical specifications, aesthetic details, and material quality.",
+    "image": "/images/tiles.png",
+    "tech": ["Next.js", "React", "TailwindCSS"],
+    "live": "https://tiles-gallary-nextjs.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/tiles-gallary-nextjs"
+  },
+  {
+    "id": 3,
+    "title": "DigiTools - Premium Digital Tools Marketplace",
+    "type": "Full Stack",
+    "shortDescription": "Marketplace for premium digital tools and AI resources.",
+    "fullDescription": "DigiTools is a dynamic marketplace engineered for modern digital creators and professionals. It provides a curated hub for discovering, filtering, and managing premium digital assets and AI tools with smooth animations and optimized performance.",
+    "image": "/images/digitools.png",
+    "tech": ["React", "TailwindCSS", "Framer Motion"],
+    "live": "https://willowy-granita-7f6474.netlify.app/",
+    "github": "https://github.com/itsasmaulhosna/B-13-A-06"
+  },
+  {
+    "id": 4,
+    "title": "The Dragon News",
+    "type": "Full Stack",
+    "shortDescription": "A real-time news portal with category filtering and admin dashboard.",
+    "fullDescription": "The Dragon News is a comprehensive full-stack news portal that delivers a fast and dynamic reading experience. It features real-time category filtering, secure authentication, and a powerful admin dashboard for content management.",
+    "image": "/images/dragonnews.png",
+    "tech": ["Next.js", "MongoDB", "Better-Auth"],
+    "live": "https://dragon-news-nextjs-rgxm.vercel.app/category/01",
+    "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs"
+  },
+  {
+    "id": 5,
+    "title": "AppStore – Productivity Hub",
+    "type": "Full Stack",
+    "shortDescription": "A centralized hub for discovering and managing productivity apps.",
+    "fullDescription": "AppStore – Productivity Hub is an application ecosystem designed to act as a centralized marketplace for productivity tools. It includes trending apps, search filtering, user tracking, and review analytics for better decision-making.",
+    "image": "/images/appstore.png",
+    "tech": ["React", "Next.js", "TailwindCSS"],
+    "live": "https://b-13-a-06-mqzn.vercel.app/apps",
+    "github": "https://github.com/itsasmaulhosna/ph-play-store"
+  },
+  {
+    "id": 6,
+    "title": "Payoo MFS Application",
+    "type": "Frontend",
+    "shortDescription": "A mobile financial service app for wallet and transactions.",
+    "fullDescription": "Payoo is a streamlined mobile financial service application that supports digital wallet management, money transfers, cash-in/cash-out features, and transaction history tracking.",
+    "image": "/images/payoo.png",
+    "tech": ["HTML", "CSS", "JS"],
+    "live": "https://dom-project-beige.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/DOM-project"
+  },
+  {
+    "id": 7,
+    "title": "English Is Easy!!",
+    "type": "Educational",
+    "shortDescription": "An interactive platform for learning English vocabulary easily.",
+    "fullDescription": "English Is Easy is an educational platform designed to simplify English vocabulary learning. It offers categorized word lists, interactive UI, and practice modules for better understanding.",
+    "image": "/images/english.png",
+    "tech": ["JS", "TailwindCSS", "DOM"],
+    "live": "https://english-janala-umber.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/English-Janala"
+  },
+  {
+    "id": 8,
+    "title": "Book Vibe",
+    "type": "Full Stack",
+    "shortDescription": "A book discovery platform with wishlist and reviews.",
+    "fullDescription": "Book Vibe is a book discovery and management platform where users can explore books, read reviews, maintain wishlists, and track reading progress.",
+    "image": "/images/bookvibe.jpg",
+    "tech": ["JS", "React", "Next.js"],
+    "live": "#",
+    "github": "#"
+  },
+  {
+    "id": 9,
+    "title": "GitHub Issue Tracker",
+    "type": "Full Stack",
+    "shortDescription": "A structured issue tracking system for developers.",
+    "fullDescription": "GitHub Issue Tracker is a robust system inspired by GitHub workflow, allowing developers to create, track, and manage issues with authentication and status updates.",
+    "image": "/images/githubIssue.png",
+    "tech": ["Next.js", "React", "TailwindCSS"],
+    "live": "https://b13-a-05.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/B13-A-05"
+  },
+  {
+    "id": 10,
+    "title": "G3 Architects",
+    "type": "Frontend",
+    "shortDescription": "A modern landing page for architecture firms.",
+    "fullDescription": "G3 Architects is a visually appealing landing page designed for architecture firms, featuring modern UI, hero section, and service highlights.",
+    "image": "/images/g3.jpg",
+    "tech": ["HTML5", "TailwindCSS", "JavaScript"],
+    "live": "#",
+    "github": "#"
+  },
+  {
+    "id": 11,
+    "title": "Green Earth - Tree Plantation",
+    "type": "Frontend",
+    "shortDescription": "An eco-friendly platform promoting tree plantation.",
+    "fullDescription": "Green Earth is a nature-inspired platform that promotes tree plantation, allowing users to explore trees, understand benefits, and purchase plants.",
+    "image": "/images/greenEarth.png",
+    "tech": ["HTML5", "TailwindCSS", "JavaScript"],
+    "live": "https://green-earth-theta-seven.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/Green-Earth"
+  },
+  {
+    "id": 12,
+    "title": "Job Application Tracker",
+    "type": "Frontend/React",
+    "shortDescription": "A dashboard to track job applications and interview progress.",
+    "fullDescription": "Job Application Tracker helps users manage their job search by tracking applications, interviews, and rejections with a clean dashboard interface.",
+    "image": "/images/jobApplication.png",
+    "tech": ["React", "TailwindCSS", "JS"],
+    "live": "https://b-13-a-07-rpr3.vercel.app/",
+    "github": "https://github.com/itsasmaulhosna/B13-A-04"
+  }
+]
