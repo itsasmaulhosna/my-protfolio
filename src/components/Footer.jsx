@@ -41,16 +41,16 @@ const Footer = () => {
 
           {/* 🔥 Social Icons */}
           <div className="flex gap-4 text-lg">
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://github.com/itsasmaulhosna" className="hover:text-blue-500 transition">
               <FaGithub />
             </a>
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.linkedin.com/in/asma-ul-hosna-99a7553b4/" className="hover:text-blue-500 transition">
               <FaLinkedin />
             </a>
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.facebook.com/iamAsmaULHosna" className="hover:text-blue-500 transition">
               <FaFacebook />
             </a>
-            <a href="#" className="hover:text-blue-500 transition">
+            <a href="https://www.instagram.com/iamasmaulhosnamaya/?hl=en" className="hover:text-blue-500 transition">
               <FaInstagram />
             </a>
           </div>
@@ -62,10 +62,10 @@ const Footer = () => {
             Quick Links
           </h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#home" className="hover:text-blue-500">Home</a></li>
-            <li><a href="#about" className="hover:text-blue-500">About</a></li>
-            <li><a href="#skills" className="hover:text-blue-500">Skills</a></li>
-            <li><a href="#projects" className="hover:text-blue-500">Projects</a></li>
+            <li><a href="/" className="hover:text-blue-500">Home</a></li>
+            <li><a href="/about" className="hover:text-blue-500">About</a></li>
+            <li><a href="/skills" className="hover:text-blue-500">Skills</a></li>
+            <li><a href="/projects" className="hover:text-blue-500">Projects</a></li>
           </ul>
         </div>
 

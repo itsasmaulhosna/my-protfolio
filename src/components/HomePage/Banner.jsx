@@ -75,7 +75,7 @@ const Banner = () => {
             <motion.a
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="#projects"
+              href="/projects"
               className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-full shadow-lg"
             >
               View Projects <FaProjectDiagram />
@@ -84,7 +84,7 @@ const Banner = () => {
             <motion.a
               whileHover={{ y: 5 }}
               whileTap={{ scale: 0.95 }}
-              href="#contact"
+              href="/contact"
               className="flex items-center gap-2 px-6 py-3 border border-blue-500 text-blue-500 rounded-full"
             >
               Contact Me <FaArrowRight />
@@ -98,19 +98,18 @@ const Banner = () => {
 
           {/* 🔥 Profile Image */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-            className="relative"
-          >
-            <Image
-              src="/images/banner.jpeg"
-              alt="profile"
-              width={370}
-              height={270}
-              className="rounded-full border-4 border-blue-500 shadow-xl"
-            />
-          </motion.div>
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6 }}
+  className="relative w-[250px] h-[250px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px] overflow-hidden rounded-full border-4 border-blue-500 shadow-xl"
+>
+  <Image
+    src="/images/banner.png"
+    alt="profile"
+    fill
+    className="object-cover"
+  />
+</motion.div>
 
           {/* 🔥 LEFT STATS */}
           <motion.div

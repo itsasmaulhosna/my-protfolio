@@ -29,20 +29,17 @@ const Navbar = () => {
 
         
         <div className="flex items-center">
-          <Image
-            src="/images/logo.png"
-            alt="logo"
-            width={100}
-            height={100}
-            className="rounded-full"
-          />
-          <div className="leading-tight">
-            <h2 className="font-bold text-lg text-gray-800 dark:text-white">
-              Asma
-            </h2>
-            <p className="text-sm text-blue-500">-dev</p>
-          </div>
-        </div>
+  
+  <Image
+    src="/images/new_logo.png"
+    alt="Asma UI Hosna"
+    width={100}
+    height={100}
+    priority
+    // className="h-12 w-auto"
+  />
+
+</div>
 
         
         <ul className="hidden md:flex items-center gap-6 px-6 py-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm text-gray-700 dark:text-gray-200">

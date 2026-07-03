@@ -54,7 +54,7 @@ export default function AboutPage() {
         {/* IMAGE (HOVER ANIMATION + BIGGER HEIGHT) */}
         <div className="overflow-hidden rounded-2xl border border-gray-700">
           <Image
-            src="/images/banner.jpeg"
+            src="/images/banner.png"
             alt="profile"
             width={420}
             height={600}

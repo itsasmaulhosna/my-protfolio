@@ -78,14 +78,22 @@
   },
   {
     "id": 8,
-    "title": "Book Vibe",
+    "title": "Pet Adoption",
     "type": "Full Stack",
-    "shortDescription": "A book discovery platform with wishlist and reviews.",
-    "fullDescription": "Book Vibe is a book discovery and management platform where users can explore books, read reviews, maintain wishlists, and track reading progress.",
-    "image": "/images/bookvibe.jpg",
-    "tech": ["JS", "React", "Next.js"],
-    "live": "#",
-    "github": "#"
+    "shortDescription": "A full-stack pet adoption platform that connects pets with loving homes.",
+    "fullDescription": "Pet Adoption is a full-stack web application designed to simplify the pet adoption process. Users can browse available pets, view detailed information, submit adoption requests, and manage their activities through a secure and user-friendly interface. The platform includes authentication, pet management, and adoption request tracking to create a smooth experience for both adopters and pet owners.",
+    "image": "/images/pet.png",
+    "tech": ["Next.js",
+  "React",
+  "Tailwind CSS",
+  "JavaScript",
+  "MongoDB",
+  "Firebase Authentication",
+  "JWT",
+  "REST API"
+],
+    "live": "https://pet-adoption-client-maya1234.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/pet-adoption-client"
   },
   {
     "id": 9,
@@ -100,14 +108,19 @@
   },
   {
     "id": 10,
-    "title": "G3 Architects",
+    "title": "Wonderlust",
     "type": "Frontend",
-    "shortDescription": "A modern landing page for architecture firms.",
-    "fullDescription": "G3 Architects is a visually appealing landing page designed for architecture firms, featuring modern UI, hero section, and service highlights.",
-    "image": "/images/g3.jpg",
-    "tech": ["HTML5", "TailwindCSS", "JavaScript"],
-    "live": "#",
-    "github": "#"
+    "shortDescription": "A modern travel and tourism platform for exploring destinations and planning memorable journeys.",
+    "fullDescription": "Wonderlust is a responsive travel and tourism web application that helps users discover exciting destinations, explore travel experiences, and plan trips with ease. It features a clean and modern user interface, engaging layouts, and seamless navigation to deliver an enjoyable travel browsing experience.",
+    "image": "/images/wonderlust.png",
+    "tech": ["Next.js",
+  "React",
+  "Tailwind CSS",
+  "JavaScript",
+  "Responsive Design"
+],
+    "live": "https://wonderlust-nextjs.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/wonderlust-nextjs"
   },
   {
     "id": 11,

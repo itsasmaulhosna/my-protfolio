@@ -48,13 +48,13 @@ const socials = [
     id: 1,
     name: "GitHub",
     icon: <FaGithub />,
-    link: "#",
+    link: "https://github.com/itsasmaulhosna",
   },
   {
     id: 2,
     name: "LinkedIn",
     icon: <FaLinkedin />,
-    link: "#",
+    link: "https://www.linkedin.com/in/asma-ul-hosna-99a7553b4/",
   },
   {
     id: 3,
@@ -66,7 +66,7 @@ const socials = [
     id: 4,
     name: "Facebook",
     icon: <FaFacebook />,
-    link: "#",
+    link: "https://www.facebook.com/iamAsmaULHosna",
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const socials = [
 
 export default function ContactSection() {
   return (
-    <section className="bg-black text-white py-20 px-4 md:px-10 lg:px-20 overflow-hidden">
+    <section className="bg-white dark:bg-black text-gray-900 dark:text-white py-20 px-4 md:px-10 lg:px-20 overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -94,7 +94,13 @@ export default function ContactSection() {
         {/* Main Grid */}
         <div className="grid lg:grid-cols-[420px_1fr] gap-8">
           {/* Left Sidebar */}
-          <div className="relative rounded-[32px] border border-white/10 bg-gradient-to-b from-[#0B0B0B] to-[#050505] p-8 overflow-hidden">
+          <div className={`
+rounded-[32px]
+border border-gray-200 dark:border-white/10
+bg-white dark:bg-gradient-to-b dark:from-[#0B0B0B] dark:to-[#050505]
+shadow-lg dark:shadow-none
+transition-colors duration-300
+`}>
             {/* Glow */}
             <div className="absolute -top-24 -left-24 w-52 h-52 bg-cyan-500/20 blur-[100px] rounded-full"></div>
 
@@ -112,7 +118,7 @@ export default function ContactSection() {
                 {contactInfo.map((item) => (
                   <div
                     key={item.id}
-                    className="group flex items-center gap-4 rounded-3xl border border-white/10 bg-white/[0.03] p-5 hover:bg-white/[0.06] transition-all duration-500 hover:scale-[1.02]"
+                    className="group flex items-center gap-4 rounded-3xl border border-white/10 bg-gray-100 dark:bg-white/[0.03] p-5 hover:bg-white/[0.06] transition-all duration-500 hover:scale-[1.02]"
                   >
                     {/* Smaller Icon */}
                     <div
@@ -127,7 +133,7 @@ export default function ContactSection() {
                       </p>
 
                       {/* Smaller Font */}
-                      <h4 className="text-base md:text-lg font-medium text-gray-200 break-all">
+                      <h4 className="text-base md:text-lg font-medium text-gray-900 dark:text-gray-200 break-all">
                         {item.value}
                       </h4>
                     </div>
@@ -161,7 +167,7 @@ export default function ContactSection() {
           </div>
 
           {/* Right Form Section */}
-          <div className="relative rounded-[32px] border border-white/10 bg-gradient-to-b from-[#0B0B0B] to-[#050505] p-8 md:p-10 overflow-hidden">
+          <div className="relative rounded-[32px] border border-white/10 bg-gray-100 dark:bg-white/[0.03] p-8 md:p-10 overflow-hidden">
             {/* Glow */}
             <div className="absolute -bottom-24 -right-24 w-60 h-60 bg-blue-500/20 blur-[120px] rounded-full"></div>
 
@@ -170,7 +176,7 @@ export default function ContactSection() {
                 Send a Message
               </h3>
 
-              <p className="text-gray-400 mb-10 text-lg">
+              <p className="text-gray-600 dark:text-gray-400 mb-10 text-lg">
                 I&apos;ll get back to you as soon as possible.
               </p>
 
@@ -185,8 +191,17 @@ export default function ContactSection() {
                     <input
                       type="text"
                       placeholder="John Doe"
-                      className="w-full h-16 rounded-2xl bg-white/[0.03] border border-white/10 px-6 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500"
-                    />
+                      className={`
+w-full
+h-16
+rounded-2xl
+bg-gray-100 dark:bg-white/[0.03]
+border border-gray-300 dark:border-white/10
+text-gray-900 dark:text-white
+placeholder:text-gray-500
+focus:border-cyan-400
+transition-all
+`} />
                   </div>
 
                   <div>
@@ -197,7 +212,7 @@ export default function ContactSection() {
                     <input
                       type="email"
                       placeholder="john@example.com"
-                      className="w-full h-16 rounded-2xl bg-white/[0.03] border border-white/10 px-6 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500"
+                      className="w-full h-16 rounded-2xl bg-gray-100 dark:bg-white/[0.03] border border-white/10 px-6 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500"
                     />
                   </div>
                 </div>
@@ -211,7 +226,7 @@ export default function ContactSection() {
                   <input
                     type="text"
                     placeholder="Project discussion"
-                    className="w-full h-16 rounded-2xl bg-white/[0.03] border border-white/10 px-6 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500"
+                    className="w-full h-16 rounded-2xl bg-gray-100 dark:bg-white/[0.03] border border-white/10 px-6 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500"
                   />
                 </div>
 
@@ -224,7 +239,7 @@ export default function ContactSection() {
                   <textarea
                     rows={7}
                     placeholder="Tell me about your project..."
-                    className="w-full rounded-2xl bg-white/[0.03] border border-white/10 px-6 py-5 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500 resize-none"
+                    className="w-full rounded-2xl bg-gray-100 dark:bg-white/[0.03] border border-white/10 px-6 py-5 text-white placeholder:text-gray-500 outline-none focus:border-cyan-400 focus:bg-white/[0.05] transition-all duration-500 resize-none"
                   ></textarea>
                 </div>
 
