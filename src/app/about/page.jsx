@@ -66,7 +66,7 @@ export default function AboutPage() {
         <div>
 
           {/* PROFESSIONAL BIO */}
-          <h2 className="text-xl font-semibold text-[#4ac2c2]">
+                    <h2 className="text-xl font-semibold text-[#4ac2c2]">
             Professional Bio
           </h2>
 
@@ -86,6 +86,7 @@ export default function AboutPage() {
             modern and high-performance web applications.
           </p>
 
+
           {/* SKILLS */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
             {skills.map((item, i) => (
@@ -101,11 +102,11 @@ export default function AboutPage() {
 
           {/* BUTTONS */}
           <div className="flex gap-4 mt-8">
-            <button className="flex items-center gap-2 bg-blue-600 px-5 py-2 rounded-xl hover:bg-blue-700">
+            <button className="flex items-center gap-2 bg-blue-600 px-5 py-2 rounded-xl hover:bg-blue-700 cursor-pointer">
               <FaRocket /> Let’s Work Together
             </button>
 
-            <button className="flex items-center gap-2 border px-5 py-2 rounded-xl hover:bg-gray-800">
+            <button className="flex items-center gap-2 border px-5 py-2 rounded-xl hover:bg-gray-800 cursor-pointer">
               <FaDownload /> Download CV
             </button>
           </div>
@@ -141,6 +142,46 @@ export default function AboutPage() {
 
       </div>
 
+
+<p className="mt-6 text-gray-400 leading-8">
+  Hi, I'm <span className="text-white font-semibold">Asma Ul Hosna</span>, a
+  passionate <span className="text-blue-400">Full Stack Web Developer</span>
+  with a strong interest in building modern, responsive, and user-friendly web
+  applications.
+
+  <br />
+  <br />
+
+  My programming journey began with learning HTML and CSS out of curiosity.
+  As I continued exploring web development, I mastered JavaScript and React,
+  and later expanded my skills to Next.js, Node.js, Express.js, MongoDB, and
+  modern development tools. Every project I build helps me improve my problem
+  solving skills and understand real-world software development practices.
+
+  <br />
+  <br />
+
+  I especially enjoy creating full-stack applications with clean UI, smooth
+  user experiences, secure authentication, and scalable backend architecture.
+  Turning ideas into functional products is the part of development I enjoy
+  the most.
+
+  <br />
+  <br />
+
+  Outside of programming, I enjoy learning new technologies, exploring modern
+  UI/UX design trends, editing videos, and spending time improving my creative
+  skills. I also enjoy listening to music and continuously challenging myself
+  with new projects.
+
+  <br />
+  <br />
+
+  I believe in continuous learning, writing clean code, and building solutions
+  that make people's lives easier. My goal is to become a professional software
+  engineer who creates meaningful digital experiences and contributes to
+  impactful projects.
+</p>
       {/* CORE STACK */}
       <div className="mt-16 border border-gray-700 p-6 rounded-2xl text-center">
         <p className="font-bold text-lg text-blue-400">

@@ -11,7 +11,6 @@ import {
   FaProjectDiagram,
   FaGraduationCap,
   FaEnvelope,
-  FaFileAlt,
   FaPaperPlane,
   FaBars,
   FaTimes,
@@ -58,13 +57,7 @@ const Navbar = () => {
 
           <ThemeToogle />
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            className="flex items-center gap-2 px-4 py-2 rounded-full border border-blue-500 text-blue-500 dark:text-blue-400 hover:bg-blue-500 hover:text-white transition"
-          >
-            <FaFileAlt /> Resume
-          </a>
+          
 
           <a
             href="#contact"
@@ -96,13 +89,7 @@ const Navbar = () => {
 
           <div className="pt-4 flex flex-col gap-3">
 
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              className="flex items-center justify-center gap-2 px-4 py-2 rounded-full border border-blue-500 text-blue-500 dark:text-blue-400"
-            >
-              <FaFileAlt /> Resume
-            </a>
+            
 
             <a
               href="#contact"

@@ -7,42 +7,39 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
   {
-    "title": "Pet Adoption",
+    "title": "Ai Prompt",
     "type": "Full Stack",
     "shortDescription": "A full-stack pet adoption platform that connects pets with loving homes.",
     "fullDescription": "Pet Adoption is a full-stack web application designed to simplify the pet adoption process. Users can browse available pets, view detailed information, submit adoption requests, and manage their activities through a secure and user-friendly interface. The platform includes authentication, pet management, and adoption request tracking to create a smooth experience for both adopters and pet owners.",
-    "image": "/images/pet.png",
+    "image": "/images/ai-prompt.png",
     "tech": ["Next.js",
-  "React",
-  "Tailwind CSS",
-  "JavaScript",
+  "Javascript",
   "MongoDB",
-  "Firebase Authentication",
   "JWT",
-  "REST API"
+  
 ],
-    "live": "https://pet-adoption-client-maya1234.vercel.app",
-    "github": "https://github.com/itsasmaulhosna/pet-adoption-client"
+    "live": "https://ai-prompt-client-two.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/PromptVault-Client"
   },
   {
-    "title": "Job Application Tracker",
+    "title": "Fitness AI",
     "type": "Frontend/React",
     "shortDescription": "A dashboard to track job applications and interview progress.",
     "fullDescription": "Job Application Tracker helps users manage their job search by tracking applications, interviews, and rejections with a clean dashboard interface.",
-    "image": "/images/jobApplication.png",
+    "image": "/images/fitness-ai.png",
     "tech": ["React", "TailwindCSS", "JS"],
-    "live": "https://b-13-a-07-rpr3.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/B13-A-04"
+    "live": "https://fitness-maya1234.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/fitness-ai-project"
   },
   {
-    "title": "The Dragon News",
+    "title": "Course Hub",
     "type": "Full Stack",
     "shortDescription": "A real-time news portal with category filtering and admin dashboard.",
-    "fullDescription": "The Dragon News is a comprehensive full-stack news portal that delivers a fast and dynamic reading experience. It features real-time category filtering, secure authentication, and a powerful admin dashboard for content management.",
-    "image": "/images/dragonnews.png",
+    "fullDescription": "Course Hub is a comprehensive full-stack news portal that delivers a fast and dynamic reading experience. It features real-time category filtering, secure authentication, and a powerful admin dashboard for content management.",
+    "image": "/images/course-hub.png",
     "tech": ["Next.js", "MongoDB", "Better-Auth"],
-    "live": "https://dragon-news-nextjs-rgxm.vercel.app/category/01",
-    "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs"
+    "live": "https://course-hub-pearl.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/course-hub"
   },
 ];
 
@@ -116,24 +113,28 @@ export default function FeaturedProjects() {
               {/* BUTTONS */}
               <div className="flex gap-3 mt-6">
 
-                <a
-                  href={project.live}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-500 text-white text-sm hover:bg-blue-600 transition"
-                >
-                  Live <FaExternalLinkAlt size={12} />
-                </a>
+<a
+  href={project.live}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-500 text-white text-sm hover:bg-blue-600 transition"
+>
+  Live <FaExternalLinkAlt size={12} />
+</a>
 
                 <a
-                  href={project.github}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-                >
-                  Code <FaGithub size={14} />
-                </a>
+  href={project.github}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+>
+  Code <FaGithub size={14} />
+</a>
               </div>
             </div>
 
             {/* GLOW EFFECT */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-r from-blue-500 to-purple-500 transition" />
+<div className="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-r from-blue-500 to-purple-500 transition" />
           </motion.div>
         ))}
       </div>

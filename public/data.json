@@ -1,6 +1,95 @@
 [
+  
   {
     "id": 1,
+    "title": "Ai Prompt",
+    "type": "Full Stack",
+    "shortDescription": "An AI prompt management platform for creating, organizing, and sharing prompts efficiently.",
+    "fullDescription": "Ai Prompt is a full-stack web application that enables users to create, organize, and manage AI prompts in one place. It includes secure authentication, prompt categorization, search functionality, and a modern dashboard for an enhanced user experience. The platform is designed to improve productivity for developers, content creators, and AI enthusiasts.",
+    "image": "/images/ai-prompt.png",
+    "tech": [
+      "Next.js",
+      "JavaScript",
+      "MongoDB",
+      "JWT"
+    ],
+    "live": "https://ai-prompt-client-two.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/PromptVault-Client",
+    "challenges": [
+      "Implementing secure JWT authentication.",
+      "Managing prompt CRUD operations efficiently.",
+      "Designing a responsive and user-friendly dashboard.",
+      "Optimizing MongoDB queries for better performance."
+    ],
+    "futurePlans": [
+      "Add AI-powered prompt suggestions.",
+      "Allow users to share prompts publicly.",
+      "Implement prompt version history.",
+      "Introduce bookmarking and favorites.",
+      "Add analytics to track prompt usage."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fitness AI",
+    "type": "Frontend/React",
+    "shortDescription": "An AI-powered fitness platform that helps users discover personalized workout programs.",
+    "fullDescription": "Fitness AI is a responsive React application that provides personalized workout plans, fitness programs, and exercise tracking with a clean and modern user interface. The project focuses on delivering an engaging user experience through responsive design and smooth interactions.",
+    "image": "/images/fitness-ai.png",
+    "tech": [
+      "React",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "live": "https://fitness-maya1234.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/fitness-ai-project",
+    "challenges": [
+      "Building reusable React components.",
+      "Creating responsive layouts for all devices.",
+      "Managing application state efficiently.",
+      "Designing a modern and interactive user interface."
+    ],
+    "futurePlans": [
+      "Integrate AI-generated workout recommendations.",
+      "Add user authentication and profiles.",
+      "Include workout history and progress tracking.",
+      "Develop a nutrition and meal planner.",
+      "Add dark mode customization."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Course Hub",
+    "type": "Full Stack",
+    "shortDescription": "A modern learning management platform with authentication, course enrollment, and dashboard features.",
+    "fullDescription": "Course Hub is a full-stack learning management system that enables users to browse courses, view course details, enroll in programs, and manage their learning journey. The application features secure authentication using Better Auth, a responsive dashboard, course management functionality, and a modern user experience built with Next.js.",
+    "image": "/images/course-hub.png",
+    "tech": [
+      "Next.js",
+      "MongoDB",
+      "Better Auth",
+      "Tailwind CSS"
+    ],
+    "live": "https://course-hub-pearl.vercel.app",
+    "github": "https://github.com/itsasmaulhosna/course-hub",
+    "challenges": [
+      "Implementing secure authentication using Better Auth.",
+      "Managing role-based dashboard functionality.",
+      "Building dynamic course enrollment features.",
+      "Handling database relationships efficiently.",
+      "Optimizing application performance."
+    ],
+    "futurePlans": [
+      "Add online video lessons.",
+      "Implement quizzes and assignments.",
+      "Provide certificates after course completion.",
+      "Integrate payment gateway for premium courses.",
+      "Add instructor dashboard and analytics."
+    ]
+  },
+
+  {
+    "id": 4,
     "title": "FriendShip Management System",
     "type": "Full Stack",
     "shortDescription": "A personal relationship management platform that tracks interactions and improves social connections.",
@@ -11,7 +100,7 @@
     "github": "https://github.com/itsasmaulhosna/B-13-A-07"
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "TilesPro - Online Ceramic Product Gallery",
     "type": "Full Stack",
     "shortDescription": "A premium ceramic tile gallery with advanced filtering and categorization.",
@@ -22,7 +111,7 @@
     "github": "https://github.com/itsasmaulhosna/tiles-gallary-nextjs"
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "DigiTools - Premium Digital Tools Marketplace",
     "type": "Full Stack",
     "shortDescription": "Marketplace for premium digital tools and AI resources.",
@@ -33,7 +122,7 @@
     "github": "https://github.com/itsasmaulhosna/B-13-A-06"
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "The Dragon News",
     "type": "Full Stack",
     "shortDescription": "A real-time news portal with category filtering and admin dashboard.",
@@ -44,7 +133,7 @@
     "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs"
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "AppStore – Productivity Hub",
     "type": "Full Stack",
     "shortDescription": "A centralized hub for discovering and managing productivity apps.",
@@ -55,7 +144,7 @@
     "github": "https://github.com/itsasmaulhosna/ph-play-store"
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Payoo MFS Application",
     "type": "Frontend",
     "shortDescription": "A mobile financial service app for wallet and transactions.",
@@ -66,7 +155,7 @@
     "github": "https://github.com/itsasmaulhosna/DOM-project"
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "English Is Easy!!",
     "type": "Educational",
     "shortDescription": "An interactive platform for learning English vocabulary easily.",
@@ -77,7 +166,7 @@
     "github": "https://github.com/itsasmaulhosna/English-Janala"
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Pet Adoption",
     "type": "Full Stack",
     "shortDescription": "A full-stack pet adoption platform that connects pets with loving homes.",
@@ -96,7 +185,7 @@
     "github": "https://github.com/itsasmaulhosna/pet-adoption-client"
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "GitHub Issue Tracker",
     "type": "Full Stack",
     "shortDescription": "A structured issue tracking system for developers.",
@@ -107,7 +196,7 @@
     "github": "https://github.com/itsasmaulhosna/B13-A-05"
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Wonderlust",
     "type": "Frontend",
     "shortDescription": "A modern travel and tourism platform for exploring destinations and planning memorable journeys.",
@@ -123,7 +212,7 @@
     "github": "https://github.com/itsasmaulhosna/wonderlust-nextjs"
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Green Earth - Tree Plantation",
     "type": "Frontend",
     "shortDescription": "An eco-friendly platform promoting tree plantation.",
@@ -134,7 +223,7 @@
     "github": "https://github.com/itsasmaulhosna/Green-Earth"
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Job Application Tracker",
     "type": "Frontend/React",
     "shortDescription": "A dashboard to track job applications and interview progress.",
