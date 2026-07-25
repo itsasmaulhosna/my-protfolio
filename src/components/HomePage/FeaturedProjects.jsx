@@ -1,9 +1,8 @@
-
 "use client";
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import FeaturedProjectModal from "./FeaturedProjectModal";
 
 const projects = [
   {
@@ -41,7 +40,6 @@ const projects = [
 
   {
     title: "Fitness AI",
-
     type: "Frontend / React",
 
     shortDescription:
@@ -76,7 +74,6 @@ const projects = [
 
   {
     title: "Course Hub",
-
     type: "Full Stack",
 
     shortDescription:
@@ -115,107 +112,216 @@ const projects = [
   },
 ];
 
+
 export default function FeaturedProjects() {
+
   return (
-    <section className="py-28 transition-colors duration-500 bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
+    <section className="py-28 bg-white dark:bg-gray-950 text-gray-900 dark:text-white transition-colors duration-500">
+
 
       {/* HEADER */}
+
       <div className="text-center mb-16">
+
         <div className="inline-block px-4 py-2 rounded-full border border-gray-300 dark:border-gray-700 text-sm">
           Featured Work
         </div>
+
 
         <h2 className="text-4xl md:text-5xl font-black mt-5">
           My <span className="text-blue-500">Projects</span>
         </h2>
 
+
         <p className="text-gray-500 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
           A selection of projects that showcase my skills in full-stack development,
           UI/UX design, and performance optimization.
         </p>
+
       </div>
 
-      {/* GRID */}
+
+
+      {/* PROJECT GRID */}
+
       <div className="max-w-7xl mx-auto px-5 grid md:grid-cols-2 xl:grid-cols-3 gap-8">
 
-        {projects.map((project, i) => (
+
+        {projects.map((project, index) => (
+
           <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
-            whileHover={{ y: -10, scale: 1.02 }}
-            className="group relative rounded-3xl overflow-hidden border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-lg dark:shadow-black/40"
+
+            key={project.title}
+
+            initial={{
+              opacity:0,
+              y:50
+            }}
+
+            whileInView={{
+              opacity:1,
+              y:0
+            }}
+
+            viewport={{
+              once:true
+            }}
+
+            transition={{
+              duration:0.5,
+              delay:index * 0.1
+            }}
+
+
+            className="
+            group 
+            relative 
+            rounded-3xl 
+            border 
+            border-gray-200 
+            dark:border-gray-800
+            bg-white 
+            dark:bg-gray-900
+            shadow-lg 
+            dark:shadow-black/40
+            overflow-visible
+            "
           >
 
+
             {/* IMAGE */}
-            <div className="h-52 overflow-hidden">
+
+            <div className="h-52 overflow-hidden rounded-t-3xl">
+
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
+                className="
+                w-full 
+                h-full 
+                object-cover
+                group-hover:scale-110
+                transition
+                duration-500
+                "
               />
+
             </div>
 
+
+
             {/* CONTENT */}
+
             <div className="p-6">
 
-              {/* TITLE */}
+
               <h3 className="text-xl font-bold group-hover:text-blue-500 transition">
                 {project.title}
               </h3>
 
-              {/* DESC */}
+
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-                {project.desc}
+                {project.shortDescription}
               </p>
 
+
+
               {/* TECH */}
+
               <div className="flex flex-wrap gap-2 mt-4">
-                {project.tech.map((t, i) => (
+
+                {project.tech.map((tech)=>(
                   <span
-                    key={i}
-                    className="text-xs px-3 py-1 rounded-full border border-gray-300 dark:border-gray-700"
+                    key={tech}
+                    className="
+                    text-xs 
+                    px-3 
+                    py-1 
+                    rounded-full
+                    border
+                    border-gray-300
+                    dark:border-gray-700
+                    "
                   >
-                    {t}
+                    {tech}
                   </span>
                 ))}
+
               </div>
 
-              {/* BUTTONS */}
-              <div className="flex gap-3 mt-6">
 
-                <a
-                  href={project.live}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-500 text-white text-sm hover:bg-blue-600 transition"
-                >
-                  Live <FaExternalLinkAlt size={12} />
-                </a>
 
-                <a
-                  href={project.github}
-                  className="flex items-center gap-2 px-4 py-2 rounded-xl border border-gray-300 dark:border-gray-700 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-                >
-                  Code <FaGithub size={14} />
-                </a>
+              {/* MODAL BUTTON */}
+
+              <div className="mt-7 relative z-20">
+
+                <FeaturedProjectModal project={project}/>
+
               </div>
+
+
             </div>
 
-            {/* GLOW EFFECT */}
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-r from-blue-500 to-purple-500 transition" />
+
+
+            {/* GLOW */}
+
+            <div
+              className="
+              pointer-events-none
+              absolute
+              inset-0
+              rounded-3xl
+              opacity-0
+              group-hover:opacity-10
+              bg-gradient-to-r
+              from-blue-500
+              to-purple-500
+              transition
+              "
+            />
+
+
+
           </motion.div>
+
         ))}
+
+
       </div>
 
+
+
       {/* VIEW MORE */}
+
       <div className="text-center mt-14">
-  <Link
-    href="/projects"
-    className="inline-block px-6 py-3 rounded-xl border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-  >
-    View All Projects
-  </Link>
-</div>
+
+        <Link
+
+          href="/projects"
+
+          className="
+          inline-block
+          px-6
+          py-3
+          rounded-xl
+          border
+          border-gray-300
+          dark:border-gray-700
+          hover:bg-gray-100
+          dark:hover:bg-gray-800
+          transition
+          "
+
+        >
+
+          View All Projects
+
+        </Link>
+
+      </div>
+
+
     </section>
   );
 }
