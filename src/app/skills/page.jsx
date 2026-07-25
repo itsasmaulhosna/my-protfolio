@@ -12,6 +12,9 @@ import {
   FaFigma,
   FaCss3Alt,
   FaHtml5,
+  FaDatabase,
+  FaShieldAlt,
+  FaKey,
 } from "react-icons/fa";
 
 import {
@@ -73,17 +76,27 @@ const frontend = [
 
 const backend = [
   {
-    title: "WordPress",
-    icon: <FaWordpress />,
-    level: 95,
-    color: "from-sky-400 to-blue-500",
+    title: "MongoDB",
+    icon: <FaDatabase />,
+    level: 85,
+    color: "from-green-500 to-lime-500",
+  },
+{
+    title: "Better Auth",
+    icon: <FaShieldAlt />,
+    level: 80,
+    color: "from-cyan-500 to-blue-600",
   },
   {
-    title: "PHP",
-    icon: <FaPhp />,
-    level: 82,
-    color: "from-indigo-400 to-indigo-600",
+    title: "JWT",
+    icon: <FaKey />,
+    level: 80,
+    color: "from-purple-500 to-indigo-600",
   },
+
+
+    
+  
   {
     title: "Node.js",
     icon: <FaNodeJs />,
@@ -117,12 +130,7 @@ const tools = [
     level: 92,
     color: "from-gray-300 to-white",
   },
-  {
-    title: "Docker",
-    icon: <FaDocker />,
-    level: 75,
-    color: "from-blue-500 to-cyan-500",
-  },
+  
   {
     title: "Vercel",
     icon: <SiVercel />,
@@ -144,12 +152,7 @@ const languages = [
     level: 95,
     color: "from-yellow-400 to-yellow-500",
   },
-  {
-    title: "PHP",
-    icon: <FaPhp />,
-    level: 82,
-    color: "from-indigo-400 to-indigo-600",
-  },
+  
   {
     title: "TypeScript (Learning)",
     icon: <SiTypescript />,

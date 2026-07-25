@@ -117,7 +117,7 @@ export const educationData = [
 
     registration: "-",
 
-    logo: "",
+    logo: "/images/nu_logo.png",
 
     about:
       "Currently pursuing Bachelor of Science in Computer Science & Engineering. Learning software engineering, algorithms, web technologies, databases and modern application development.",

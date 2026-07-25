@@ -24,24 +24,36 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed top-0 left-0 z-50 backdrop-blur-md bg-white/80 dark:bg-gray-900/80 shadow-sm transition">
 
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2.5">
 
         
         <div className="flex items-center">
-  
   <Image
-    src="/images/new_logo.png"
-    alt="Asma UI Hosna"
-    width={100}
-    height={100}
+    src="/images/nav-fot-logo.png"
+    alt="Asma Ul Hoosna"
+    width={72}
+    height={72}
     priority
-    // className="h-12 w-auto"
+    className="h-14 lg:h-15 w-auto"
   />
 
+  <div className="flex sm:flex flex-col justify-center leading-tight">
+    <h1 className="text-sm sm:text-lg lg:text-xl font-black tracking-tight text-gray-900 dark:text-white">
+  <span>ASMA</span>{" "}
+  <span className="bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">
+    UL
+  </span>{" "}
+  <span>HOOSNA</span>
+</h1>
+
+<p className="mt-1 text-[8px] sm:text-[11px] lg:text-xs uppercase tracking-[0.18em] sm:tracking-[0.28em] text-slate-500 dark:text-slate-400">
+  Full Stack Developer
+</p>
+  </div>
 </div>
 
         
-        <ul className="hidden md:flex items-center gap-6 px-6 py-2 rounded-full border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-sm text-gray-700 dark:text-gray-200">
+        <ul className="hidden md:flex items-center gap-7 px-7 py-3 rounded-full border border-slate-200/70 dark:border-white/10 bg-white/80 dark:bg-slate-800/70 backdrop-blur-xl shadow-lg">
 
           <li><Link href="/" className="flex items-center gap-1 hover:text-blue-500"><FaHome/> Home</Link></li>
           <li><Link href="/about" className="flex items-center gap-1 hover:text-blue-500"><FaUser/> About</Link></li>

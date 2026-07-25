@@ -56,12 +56,7 @@ const socials = [
     icon: <FaLinkedin />,
     link: "https://www.linkedin.com/in/asma-ul-hosna-99a7553b4/",
   },
-  {
-    id: 3,
-    name: "Twitter",
-    icon: <FaTwitter />,
-    link: "#",
-  },
+  
   {
     id: 4,
     name: "Facebook",
@@ -246,7 +241,7 @@ transition-all
                 {/* Button */}
                 <button
                   type="submit"
-                  className="relative overflow-hidden flex items-center gap-3 px-10 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-lg hover:scale-105 transition-all duration-500 shadow-[0_0_40px_rgba(59,130,246,0.45)]"
+                  className="relative overflow-hidden flex items-center gap-3 px-10 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-semibold text-lg hover:scale-105 transition-all duration-500 shadow-[0_0_40px_rgba(59,130,246,0.45)] cursor-pointer"
                 >
                   <FaPaperPlane className="text-base" />
                   Send Message

@@ -79,7 +79,7 @@ const Banner = () => {
             <motion.a
               whileHover={{ y: 5 }}
               whileTap={{ scale: 0.95 }}
-              href="/resume.pdf"
+              
               target="_blank"
               className="flex items-center gap-2 px-6 py-3 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition"
             >

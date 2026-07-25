@@ -97,7 +97,21 @@
     "image": "/images/friendship.png",
     "tech": ["JS", "React", "TailwindCSS"],
     "live": "https://keenkeeper-ruby.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/B-13-A-07"
+    "github": "https://github.com/itsasmaulhosna/B-13-A-07",
+    "challenges": [
+    "Designing an intuitive friendship management dashboard.",
+    "Managing relationship data efficiently.",
+    "Building interaction tracking features.",
+    "Creating responsive UI for all screen sizes."
+  ],
+  "futurePlans": [
+    "Add reminder notifications for important dates.",
+    "Implement friendship analytics and insights.",
+    "Introduce AI-powered relationship suggestions.",
+    "Enable friend groups and categories.",
+    "Add cloud backup and synchronization."
+  ]
+
   },
   {
     "id": 5,
@@ -108,7 +122,21 @@
     "image": "/images/tiles.png",
     "tech": ["Next.js", "React", "TailwindCSS"],
     "live": "https://tiles-gallary-nextjs.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/tiles-gallary-nextjs"
+    "github": "https://github.com/itsasmaulhosna/tiles-gallary-nextjs",
+    "challenges": [
+    "Building advanced filtering and search functionality.",
+    "Optimizing image loading for large tile galleries.",
+    "Managing categorized product data efficiently.",
+    "Creating a responsive product showcase."
+  ],
+  "futurePlans": [
+    "Add 3D tile previews.",
+    "Implement wishlist and comparison features.",
+    "Integrate online quotation requests.",
+    "Support AR room visualization.",
+    "Add product reviews and ratings."
+  ]
+
   },
   {
     "id": 6,
@@ -119,7 +147,21 @@
     "image": "/images/digitools.png",
     "tech": ["React", "TailwindCSS", "Framer Motion"],
     "live": "https://willowy-granita-7f6474.netlify.app/",
-    "github": "https://github.com/itsasmaulhosna/B-13-A-06"
+    "github": "https://github.com/itsasmaulhosna/B-13-A-06",
+    "challenges": [
+    "Creating smooth UI animations with Framer Motion.",
+    "Managing dynamic product filtering.",
+    "Designing reusable marketplace components.",
+    "Optimizing application performance."
+  ],
+  "futurePlans": [
+    "Add user authentication.",
+    "Implement digital product purchases.",
+    "Introduce AI-powered tool recommendations.",
+    "Support user reviews and ratings.",
+    "Add seller dashboard functionality."
+  ]
+
   },
   {
     "id": 7,
@@ -130,7 +172,21 @@
     "image": "/images/dragonnews.png",
     "tech": ["Next.js", "MongoDB", "Better-Auth"],
     "live": "https://dragon-news-nextjs-rgxm.vercel.app/category/01",
-    "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs"
+    "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs",
+    "challenges": [
+    "Implementing dynamic news categories.",
+    "Managing secure authentication.",
+    "Building an admin dashboard.",
+    "Optimizing data fetching performance."
+  ],
+  "futurePlans": [
+    "Add live breaking news updates.",
+    "Implement comment functionality.",
+    "Support multilingual content.",
+    "Introduce personalized news feeds.",
+    "Add bookmarking and reading history."
+  ]
+
   },
   {
     "id": 8,
@@ -141,7 +197,21 @@
     "image": "/images/appstore.png",
     "tech": ["React", "Next.js", "TailwindCSS"],
     "live": "https://b-13-a-06-mqzn.vercel.app/apps",
-    "github": "https://github.com/itsasmaulhosna/ph-play-store"
+    "github": "https://github.com/itsasmaulhosna/ph-play-store",
+    "challenges": [
+    "Designing a scalable app listing system.",
+    "Implementing advanced search functionality.",
+    "Managing application categories.",
+    "Creating a modern responsive UI."
+  ],
+  "futurePlans": [
+    "Add user authentication.",
+    "Implement app download analytics.",
+    "Support app reviews and ratings.",
+    "Introduce AI-powered app recommendations.",
+    "Add developer dashboard."
+  ]
+
   },
   {
     "id": 9,
@@ -152,7 +222,21 @@
     "image": "/images/payoo.png",
     "tech": ["HTML", "CSS", "JS"],
     "live": "https://dom-project-beige.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/DOM-project"
+    "github": "https://github.com/itsasmaulhosna/DOM-project",
+      "challenges": [
+    "Implementing wallet balance management.",
+    "Handling transaction history updates.",
+    "Building interactive DOM functionality.",
+    "Creating a mobile-friendly interface."
+  ],
+  "futurePlans": [
+    "Add secure authentication.",
+    "Implement real payment gateway integration.",
+    "Support QR code payments.",
+    "Add biometric login.",
+    "Provide monthly spending reports."
+  ]
+
   },
   {
     "id": 10,
@@ -163,7 +247,21 @@
     "image": "/images/english.png",
     "tech": ["JS", "TailwindCSS", "DOM"],
     "live": "https://english-janala-umber.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/English-Janala"
+    "github": "https://github.com/itsasmaulhosna/English-Janala",
+    "challenges": [
+    "Creating an engaging vocabulary learning experience.",
+    "Managing categorized word data.",
+    "Building interactive learning modules.",
+    "Ensuring responsive design."
+  ],
+  "futurePlans": [
+    "Add pronunciation audio.",
+    "Implement quizzes and exams.",
+    "Track learning progress.",
+    "Introduce gamification features.",
+    "Support multiple languages."
+  ]
+
   },
   {
     "id": 11,
@@ -177,12 +275,26 @@
   "Tailwind CSS",
   "JavaScript",
   "MongoDB",
-  "Firebase Authentication",
-  "JWT",
-  "REST API"
+  
+  "JWT"
+  
 ],
     "live": "https://pet-adoption-client-maya1234.vercel.app",
-    "github": "https://github.com/itsasmaulhosna/pet-adoption-client"
+    "github": "https://github.com/itsasmaulhosna/pet-adoption-client",
+      "challenges": [
+    "Implementing secure JWT authentication.",
+    "Managing pet adoption requests efficiently.",
+    "Designing role-based dashboards.",
+    "Optimizing MongoDB queries."
+  ],
+  "futurePlans": [
+    "Add real-time chat between adopters and owners.",
+    "Implement pet vaccination records.",
+    "Introduce location-based pet search.",
+    "Add pet recommendation system.",
+    "Support online donation functionality."
+  ]
+
   },
   {
     "id": 12,
@@ -193,7 +305,21 @@
     "image": "/images/githubIssue.png",
     "tech": ["Next.js", "React", "TailwindCSS"],
     "live": "https://b13-a-05.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/B13-A-05"
+    "github": "https://github.com/itsasmaulhosna/B13-A-05",
+    "challenges": [
+    "Managing issue status updates.",
+    "Implementing authentication securely.",
+    "Designing an intuitive issue dashboard.",
+    "Building reusable React components."
+  ],
+  "futurePlans": [
+    "Add issue comments.",
+    "Implement project collaboration.",
+    "Support labels and milestones.",
+    "Introduce email notifications.",
+    "Add issue analytics dashboard."
+  ]
+
   },
   {
     "id": 13,
@@ -203,13 +329,27 @@
     "fullDescription": "Wonderlust is a responsive travel and tourism web application that helps users discover exciting destinations, explore travel experiences, and plan trips with ease. It features a clean and modern user interface, engaging layouts, and seamless navigation to deliver an enjoyable travel browsing experience.",
     "image": "/images/wonderlust.png",
     "tech": ["Next.js",
-  "React",
+  
   "Tailwind CSS",
   "JavaScript",
   "Responsive Design"
 ],
     "live": "https://wonderlust-nextjs.vercel.app",
-    "github": "https://github.com/itsasmaulhosna/wonderlust-nextjs"
+    "github": "https://github.com/itsasmaulhosna/wonderlust-nextjs",
+    "challenges": [
+    "Designing attractive travel destination pages.",
+    "Creating responsive layouts.",
+    "Optimizing page performance.",
+    "Building reusable UI components."
+  ],
+  "futurePlans": [
+    "Add hotel booking functionality.",
+    "Implement destination reviews.",
+    "Integrate interactive maps.",
+    "Support travel package bookings.",
+    "Add AI trip planner."
+  ]
+
   },
   {
     "id": 14,
@@ -220,7 +360,21 @@
     "image": "/images/greenEarth.png",
     "tech": ["HTML5", "TailwindCSS", "JavaScript"],
     "live": "https://green-earth-theta-seven.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/Green-Earth"
+    "github": "https://github.com/itsasmaulhosna/Green-Earth",
+      "challenges": [
+    "Creating an engaging eco-friendly interface.",
+    "Managing tree information effectively.",
+    "Designing responsive layouts.",
+    "Optimizing application performance."
+  ],
+  "futurePlans": [
+    "Add tree plantation tracking.",
+    "Implement donation functionality.",
+    "Support volunteer registration.",
+    "Introduce environmental impact analytics.",
+    "Add interactive maps for plantations."
+  ]
+
   },
   {
     "id": 15,
@@ -231,6 +385,20 @@
     "image": "/images/jobApplication.png",
     "tech": ["React", "TailwindCSS", "JS"],
     "live": "https://b-13-a-07-rpr3.vercel.app/",
-    "github": "https://github.com/itsasmaulhosna/B13-A-04"
+    "github": "https://github.com/itsasmaulhosna/B13-A-04",
+      "challenges": [
+    "Managing application state efficiently.",
+    "Building reusable dashboard components.",
+    "Creating responsive UI.",
+    "Implementing filtering and sorting features."
+  ],
+  "futurePlans": [
+    "Add authentication and user accounts.",
+    "Implement interview reminders.",
+    "Support resume management.",
+    "Introduce job analytics dashboard.",
+    "Add AI-powered job recommendations."
+  ]
+
   }
 ]

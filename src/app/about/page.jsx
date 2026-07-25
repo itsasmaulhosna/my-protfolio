@@ -114,7 +114,7 @@ export default function AboutPage() {
       </div>
 
       {/* STATS WITH ICONS */}
-      <div className="grid md:grid-cols-4 gap-6 mt-20 text-center">
+      <div className="grid md:grid-cols-3 gap-6 mt-20 text-center">
 
         <div className="border border-gray-700 rounded-2xl p-8">
           <FaProjectDiagram className="mx-auto text-blue-400 text-xl mb-2" />
@@ -134,11 +134,11 @@ export default function AboutPage() {
           <p>Certificates</p>
         </div>
 
-        <div className="border border-gray-700 rounded-2xl p-8">
+        {/* <div className="border border-gray-700 rounded-2xl p-8">
           <FaCalendarAlt className="mx-auto text-green-400 text-xl mb-2" />
           <h2 className="text-3xl font-bold text-green-400">1+</h2>
           <p>Years Exp</p>
-        </div>
+        </div> */}
 
       </div>
 
