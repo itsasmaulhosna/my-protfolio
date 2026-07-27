@@ -38,7 +38,7 @@ export default function FeaturedProjectModal({ project }) {
     console.log("clicked");
     setOpen(true);
   }}
-  className="mt-8 flex items-center gap-2 rounded-xl bg-cyan-400 px-5 py-3 font-semibold text-black transition hover:bg-cyan-300"
+  className="mt-8 flex items-center gap-2 rounded-xl bg-cyan-400 px-5 py-3 font-semibold text-black transition hover:bg-cyan-300 cursor-pointer"
 >
   View Details
   <FaArrowRight />
@@ -57,7 +57,7 @@ export default function FeaturedProjectModal({ project }) {
 
             <button
               onClick={() => setOpen(false)}
-              className="absolute right-5 top-5 z-20 rounded-full bg-white/10 p-3 transition hover:bg-red-500"
+              className="absolute right-5 top-5 z-20 rounded-full bg-white/10 p-3 transition hover:bg-red-500 cursor-pointer"
             >
               <FaTimes />
             </button>

@@ -169,7 +169,7 @@
     "type": "Full Stack",
     "shortDescription": "A real-time news portal with category filtering and admin dashboard.",
     "fullDescription": "The Dragon News is a comprehensive full-stack news portal that delivers a fast and dynamic reading experience. It features real-time category filtering, secure authentication, and a powerful admin dashboard for content management.",
-    "image": "/images/dragonnews.png",
+    "image": "/images/dragonNews.png",
     "tech": ["Next.js", "MongoDB", "Better-Auth"],
     "live": "https://dragon-news-nextjs-rgxm.vercel.app/category/01",
     "github": "https://github.com/itsasmaulhosna/dragon-news-nextjs",

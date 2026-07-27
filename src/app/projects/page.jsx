@@ -1,11 +1,24 @@
 import ProjectModal from "@/components/ProjectModal";
 
-const ProjectPage = async () => {
-  const res = await fetch("http://localhost:3000/data.json", {
+async function getProjects() {
+  const baseUrl =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : process.env.NEXT_PUBLIC_SITE_URL;
+
+  const res = await fetch(`${baseUrl}/data.json`, {
     cache: "no-store",
   });
 
-  const projects = await res.json();
+  if (!res.ok) {
+    throw new Error("Failed to fetch projects");
+  }
+
+  return res.json();
+}
+
+const ProjectPage = async () => {
+  const projects = await getProjects();
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-40">
@@ -18,11 +31,11 @@ const ProjectPage = async () => {
         <h1 className="text-5xl font-bold">
           My <span className="text-cyan-400">Projects</span>
         </h1>
+
         <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-          Here is a collection of my recent work including
-          full-stack applications, frontend UI projects, and
-          interactive web experiences built with modern
-          technologies like React, Next.js, and Tailwind CSS.
+          Here is a collection of my recent work including full-stack
+          applications, frontend UI projects, and interactive web experiences
+          built with modern technologies like React, Next.js, and Tailwind CSS.
         </p>
       </div>
 

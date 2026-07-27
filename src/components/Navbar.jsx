@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
 import {
   FaHome,
   FaUser,
@@ -19,6 +19,14 @@ import {
 import ThemeToogle from "./ThemeToogle";
 
 const Navbar = () => {
+  const pathname = usePathname();
+
+const navClass = (path) =>
+  `flex items-center gap-1 transition-all duration-300 ${
+    pathname === path
+      ? "text-blue-500 font-semibold"
+      : "text-gray-700 dark:text-gray-200 hover:text-blue-500"
+  }`;
   const [open, setOpen] = useState(false);
 
   return (
@@ -29,7 +37,7 @@ const Navbar = () => {
         
         <div className="flex items-center">
   <Image
-    src="/images/nav-fot-logo.png"
+    src="/images/img.jpeg"
     alt="Asma Ul Hoosna"
     width={72}
     height={72}
@@ -37,32 +45,49 @@ const Navbar = () => {
     className="h-14 lg:h-15 w-auto"
   />
 
-  <div className="flex sm:flex flex-col justify-center leading-tight">
-    <h1 className="text-sm sm:text-lg lg:text-xl font-black tracking-tight text-gray-900 dark:text-white">
-  <span>ASMA</span>{" "}
-  <span className="bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent">
-    UL
-  </span>{" "}
-  <span>HOOSNA</span>
-</h1>
-
-<p className="mt-1 text-[8px] sm:text-[11px] lg:text-xs uppercase tracking-[0.18em] sm:tracking-[0.28em] text-slate-500 dark:text-slate-400">
-  Full Stack Developer
-</p>
-  </div>
+  
 </div>
 
         
         <ul className="hidden md:flex items-center gap-7 px-7 py-3 rounded-full border border-slate-200/70 dark:border-white/10 bg-white/80 dark:bg-slate-800/70 backdrop-blur-xl shadow-lg">
 
-          <li><Link href="/" className="flex items-center gap-1 hover:text-blue-500"><FaHome/> Home</Link></li>
-          <li><Link href="/about" className="flex items-center gap-1 hover:text-blue-500"><FaUser/> About</Link></li>
-          <li><Link href="/skills" className="flex items-center gap-1 hover:text-blue-500"><FaCode/> Skills</Link></li>
-          <li><Link href="/projects" className="flex items-center gap-1 hover:text-blue-500"><FaProjectDiagram/> Projects</Link></li>
-          <li><Link href="/education" className="flex items-center gap-1 hover:text-blue-500"><FaGraduationCap/> Education</Link></li>
-          <li><Link href="/contact" className="flex items-center gap-1 hover:text-blue-500"><FaEnvelope/> Contact</Link></li>
+  <li>
+    <Link href="/" className={navClass("/")}>
+      <FaHome /> Home
+    </Link>
+  </li>
 
-        </ul>
+  <li>
+    <Link href="/about" className={navClass("/about")}>
+      <FaUser /> About
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/skills" className={navClass("/skills")}>
+      <FaCode /> Skills
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/projects" className={navClass("/projects")}>
+      <FaProjectDiagram /> Projects
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/education" className={navClass("/education")}>
+      <FaGraduationCap /> Education
+    </Link>
+  </li>
+
+  <li>
+    <Link href="/contact" className={navClass("/contact")}>
+      <FaEnvelope /> Contact
+    </Link>
+  </li>
+
+</ul>
 
         
         <div className="hidden md:flex items-center gap-4">
@@ -92,12 +117,53 @@ const Navbar = () => {
       {open && (
         <div className="md:hidden bg-white dark:bg-gray-900 shadow-md px-6 py-4 space-y-4 text-gray-700 dark:text-gray-200">
 
-          <Link onClick={()=>setOpen(false)} href="/" className="flex items-center gap-2"><FaHome/> Home</Link>
-          <Link onClick={()=>setOpen(false)} href="/about" className="flex items-center gap-2"><FaUser/> About</Link>
-          <Link onClick={()=>setOpen(false)} href="/skills" className="flex items-center gap-2"><FaCode/> Skills</Link>
-          <Link onClick={()=>setOpen(false)} href="/projects" className="flex items-center gap-2"><FaProjectDiagram/> Projects</Link>
-          <Link onClick={()=>setOpen(false)} href="/education" className="flex items-center gap-2"><FaGraduationCap/> Education</Link>
-          <Link onClick={()=>setOpen(false)} href="/contact" className="flex items-center gap-2"><FaEnvelope/> Contact</Link>
+          <Link
+  href="/"
+  onClick={() => setOpen(false)}
+  className={navClass("/")}
+>
+  <FaHome /> Home
+</Link>
+
+<Link
+  href="/about"
+  onClick={() => setOpen(false)}
+  className={navClass("/about")}
+>
+  <FaUser /> About
+</Link>
+
+<Link
+  href="/skills"
+  onClick={() => setOpen(false)}
+  className={navClass("/skills")}
+>
+  <FaCode /> Skills
+</Link>
+
+<Link
+  href="/projects"
+  onClick={() => setOpen(false)}
+  className={navClass("/projects")}
+>
+  <FaProjectDiagram /> Projects
+</Link>
+
+<Link
+  href="/education"
+  onClick={() => setOpen(false)}
+  className={navClass("/education")}
+>
+  <FaGraduationCap /> Education
+</Link>
+
+<Link
+  href="/contact"
+  onClick={() => setOpen(false)}
+  className={navClass("/contact")}
+>
+  <FaEnvelope /> Contact
+</Link>
 
           <div className="pt-4 flex flex-col gap-3">
 
