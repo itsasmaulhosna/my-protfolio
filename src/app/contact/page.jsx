@@ -73,7 +73,7 @@ const socials = [
 
 export default function ContactSection() {
   return (
-    <section className="bg-white dark:bg-black text-gray-900 dark:text-white py-20 px-4 md:px-10 lg:px-20 overflow-hidden transition-colors duration-300">
+    <section className="bg-white dark:bg-black text-gray-900 dark:text-white py-10 xl:py-20 px-4 md:px-10 lg:px-20 overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-16">

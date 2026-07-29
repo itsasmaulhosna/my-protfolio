@@ -38,7 +38,7 @@ const features = [
 
 export default function WhyHireMe() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-5 xl:py-30 overflow-hidden">
 
       {/* BACKGROUND */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(0,255,255,0.08),transparent_30%)]" />

@@ -239,7 +239,7 @@ duration-300
 
 export default function SkillsSection() {
   return (
-    <section className="relative overflow-hidden pt-40 pb-28 bg-gray-50 dark:bg-[#05080F] text-gray-900 dark:text-white transition-colors duration-300">
+    <section className="relative overflow-hidden pt-20 xl:pt-40 pb-28 bg-gray-50 dark:bg-[#05080F] text-gray-900 dark:text-white transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6">
         <p className="uppercase tracking-[5px] text-cyan-400 text-sm font-semibold pt-15">
           Technical Proficiency

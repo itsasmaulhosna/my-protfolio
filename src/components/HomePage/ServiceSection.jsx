@@ -38,7 +38,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section className="py-28 transition-colors duration-500 bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
+    <section className="xl:py-28 transition-colors duration-500 bg-white dark:bg-gray-950 text-gray-900 dark:text-white">
 
       {/* HEADER */}
       <div className="text-center mb-16">

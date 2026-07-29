@@ -15,7 +15,7 @@ export default function EducationPage() {
       </div>
 
       {/* Hero */}
-      <section className="pt-28 pb-16 text-center">
+      <section className=" pt-28 xl:pt-35 pb-16 text-center">
         <div className="max-w-4xl mx-auto px-6">
           <span className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm font-semibold uppercase tracking-[3px] text-cyan-300">
             🎓 Academic Journey

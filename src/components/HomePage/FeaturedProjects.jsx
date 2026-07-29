@@ -121,7 +121,7 @@ export default function FeaturedProjects(){
 return(
 
 <section className="
-py-28
+xl:py-6
 bg-white
 dark:bg-gray-950
 text-gray-900
@@ -133,7 +133,7 @@ duration-500
 
 {/* HEADER */}
 
-<div className="text-center mb-16">
+<div className="text-center mb-15">
 
 <div className="
 inline-block

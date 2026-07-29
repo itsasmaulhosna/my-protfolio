@@ -35,17 +35,35 @@ const navClass = (path) =>
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2.5">
 
         
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
   <Image
-    src="/images/img.jpeg"
+    src="/images/@logo.png"
     alt="Asma Ul Hoosna"
-    width={72}
-    height={72}
+    width={80}
+    height={80}
     priority
-    className="h-14 lg:h-15 w-auto"
+    className="h-14 lg:h-20 w-auto"
   />
 
   
+</div> */}
+<div className="flex items-center h-16 overflow-visible">
+  <Image
+    src="/images/@logo.png"
+    alt="Asma Ul Hoosna"
+    width={100}
+    height={100}
+    priority
+    className={`
+    w-auto object-contain
+    h-12
+    sm:h-17
+    md:h-18
+    lg:h-20
+    xl:h-24
+  `}
+
+  />
 </div>
 
         

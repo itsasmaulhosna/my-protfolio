@@ -26,7 +26,7 @@ const skills = [
 
 export default function AboutPage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 py-50 text-white">
+    <div className="max-w-6xl mx-auto px-4 xl:py-40 py-30 text-white">
 
       {/* ABOUT HEADER (AUTO WIDTH BORDER) */}
       <div className="text-center ">

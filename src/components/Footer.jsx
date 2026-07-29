@@ -19,20 +19,20 @@ const Footer = () => {
 
         {/* 🔹 Logo + Name + Social */}
         <div>
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex items-center  mb-4">
             <Image
-              src="/images/logo.png"
+              src="/images/@logo.png"
               alt="logo"
-              width={50}
-              height={50}
+              width={100}
+              height={100}
               className="rounded-full"
             />
-            <div className="leading-tight">
+            {/* <div className="leading-tight">
               <h2 className="text-xl font-bold text-gray-800 dark:text-white">
                 Asma
               </h2>
               <p className="text-blue-500 text-sm">-dev</p>
-            </div>
+            </div> */}
           </div>
 
           <p className="text-sm mb-4">

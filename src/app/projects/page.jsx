@@ -21,7 +21,7 @@ const ProjectPage = async () => {
   const projects = await getProjects();
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-40">
+    <div className="max-w-7xl mx-auto px-6 xl:py-40 py-25">
       {/* Heading */}
       <div className="text-center space-y-5 mb-16">
         <p className="inline-block border border-cyan-500 text-cyan-400 rounded-full px-4 py-1 text-sm">
